@@ -1,0 +1,51 @@
+@import "main_page.css";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+:root a {
+  text-decoration: none;
+}
+:root a:checked {
+  color: #b8b8b8;
+}
+:root a:active {
+  color: #b8b8b8;
+}
+
+.container {
+  margin: auto;
+  max-width: 1440px;
+}
+
+.custom-list {
+  list-style: none;
+  padding-left: 1.5em;
+}
+.custom-list li {
+  position: relative;
+}
+.custom-list li:hover:before {
+  transform: rotate(1120deg);
+}
+.custom-list li:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-image: url("../../src/assets/svg/triangle.svg");
+  left: -1.2rem;
+  top: 40%;
+  transform: rotate(235deg);
+  transition: 0.5s ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+header .container nav ul li a {
+  color: #000;
+  letter-spacing: 3px;
+}
+header .container nav ul li a:hover {
+  color: #b8b8b8;
+}
+
+/*# sourceMappingURL=main_page.css.map */

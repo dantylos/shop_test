@@ -1,0 +1,24 @@
+$yello: #d6b800;
+$black: #000;
+$grey: #b8b8b8;
+
+
+
+header{
+  .container{
+    nav{
+      ul{
+        li{
+          a{
+            color: $black;
+            letter-spacing: 3px;
+
+            &:hover{
+              color: $grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
