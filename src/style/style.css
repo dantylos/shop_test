@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #c8c8c8;
+}
+
 :root {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
@@ -14,10 +18,13 @@
   text-decoration: none;
 }
 :root a:checked {
-  color: #b8b8b8;
+  color: #c8c8c8;
 }
 :root a:active {
-  color: #b8b8b8;
+  color: #c8c8c8;
+}
+:root a:hover {
+  color: #c8c8c8;
 }
 
 .container {
@@ -26,27 +33,9 @@
 }
 
 .custom-list {
-  list-style: none;
+  list-style-type: square;
   padding-left: 1.5em;
   max-width: fit-content;
-}
-.custom-list li {
-  position: relative;
-}
-.custom-list li:hover:before {
-  transform: rotate(1120deg);
-}
-.custom-list li:before {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  background-image: url("../../src/assets/svg/triangle.svg");
-  left: -1.2rem;
-  top: 40%;
-  transform: rotate(235deg);
-  transition: 0.5s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */
